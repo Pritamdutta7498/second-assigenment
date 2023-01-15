@@ -164,6 +164,7 @@ body {
   bottom: 65px;
   right: 45px;
   cursor: pointer;
+  border: none;
 }
 .box-btn-title {
   font-weight: 700;
