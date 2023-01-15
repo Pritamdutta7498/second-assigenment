@@ -104,3 +104,273 @@ body {
 }
 
 /* second-section-style */
+.features-tech-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 70px;
+}
+.features-tech-container {
+  width: 460px;
+}
+.features-tech-start {
+  display: flex;
+  gap: 20px;
+}
+.front-color {
+  width: 5px;
+  height: 90px;
+  background: #ff900e;
+}
+.features-tech-title {
+  font-weight: 700;
+  font-size: 35px;
+}
+.features-tech-para {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.blogs {
+  margin-top: 50px;
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.blog-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.blog-para {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+.architect-img {
+  width: 600px;
+}
+.box-button {
+  width: 250px;
+  height: 130px;
+  background-color: #ff900e;
+  border-radius: 10px;
+  position: relative;
+  bottom: 65px;
+  right: 45px;
+  cursor: pointer;
+}
+.box-btn-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ffffff;
+  line-height: 40px;
+}
+.span-style3 {
+  font-size: 16px;
+}
+/* third section style */
+.third-section-data {
+  margin-left: 200px;
+}
+.third-section-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.third-section-para {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+}
+.company-achieve {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+.company-acheieve-box {
+  /* padding: 30px; */
+  width: 200px;
+  height: 170px;
+  border: 2px solid #ff900e;
+  text-align: center;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+.company-acheieve-box img {
+  margin-top: 30px;
+}
+.box-num {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 30px;
+}
+.box-para {
+  font-weight: 500;
+  color: #727272;
+}
+
+/* sponsor section style */
+.sponsor-section {
+  margin-top: 100px;
+  text-align: center;
+}
+.sponsor-title {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.sponsor-para {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.sponsor-team {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sponsor-team img {
+  margin-left: 70px;
+}
+/* footer style start */
+.footer {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  height: 100px;
+  width: 1170px;
+  background: rgba(255, 144, 14, 0.1);
+  border-radius: 10px;
+  margin-left: 200px;
+}
+.footer-title {
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+
+.hide{
+  display: none;
+}
+/* mobile responsive */
+@media screen and (max-width:576px) {
+  body {
+    width: 100%;
+  }
+  /* header style */
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header-logo {
+    font-size: 20px;
+  }
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav ul li{
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+  .header-title {
+    font-size: 30px;
+  }
+  .header-img img {
+    width: 60%;
+  }
+/* first section style */
+.features-section {
+  display: flex;
+  flex-direction: column;
+}
+.features-img {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.features-data {
+  margin-top: 20px;
+  width: 300px;
+}
+.features-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.btn{
+  margin-left: 40px;
+}
+  /* second-section-style */
+.features-tech-section {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+.features-tech-container {
+  width: 300px;
+}
+.front-color {
+  width: 5px;
+  height: 140px;
+  background: #ff900e;
+}
+
+.features-tech-para {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.blogs {
+  margin-top: 50px;
+  width: 300px;
+  padding: 20px;
+
+}
+.blog-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.blog-para {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+.architect-img {
+  width: 300px;
+  margin-left: 40px;
+}
+.box-button {
+  width: 150px;
+  height: 90px;
+  position: relative;
+  bottom: 95px;
+  left: 120px;
+}
+.box-btn-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 40px;
+}
+.span-style3 {
+  font-size: 16px;
+}
+
+}
+
+
+
+
+
